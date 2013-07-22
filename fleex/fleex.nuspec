@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>fleex</id>
+    <title>fleex</title>
+    <version>2.0.0</version>
+    <authors>FleexTV</authors>
+    <owners>Pytsh</owners>
+    <summary>Fleex is an universal English-learning video player.</summary>
+    <description>Fleex is an universal English-learning video player.Fleex uses VLC at its core. So, anything VLC can play, Fleex plays just as well. Fleex shows you mixed subtitles : so you get the hard parts in your language and the easier pats in English. Fleex analyzes the bytes in your file to find synced subtitles automatically. Finally, you can pause your video at any time to show dual subtitles and get instant translation. Click words to get definitions and more.</description>
+    <projectUrl>http://fleex.tv</projectUrl>
+    <tags>fleex player vlc subtitle learn english language</tags>
+    <copyright></copyright>
+    <licenseUrl>http://fleex.tv/Content/resources/legal/terms.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/__NAME__/__NAME__.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>Much simpler interface</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
