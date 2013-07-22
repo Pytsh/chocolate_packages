@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>teeworlds</id>
+    <title>teeworlds</title>
+    <version>0.6.2</version>
+    <authors>Magnus Auvinen</authors>
+    <owners>Pytsh</owners>
+    <summary>A retro multiplayer shooter.</summary>
+    <description>Teeworlds is a free online multiplayer game, available for all major operating systems. Battle with up to 16 players in a variety of game modes, including Team Deathmatch and Capture The Flag. You can even design your own maps! </description>
+    <projectUrl>https://www.teeworlds.com/</projectUrl>
+    <tags>teeworlds teeworld game shoot online multiplayer</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/teeworlds/teeworlds/blob/master/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/__NAME__/__NAME__.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>Minor version. New features ans some bugfixes.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
