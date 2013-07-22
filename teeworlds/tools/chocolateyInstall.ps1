@@ -1,7 +1,7 @@
 $packageName = 'teeworlds'
 $url = 'http://www.teeworlds.com/files/teeworlds-0.6.2-win32.zip'
 $url64bit = 'http://www.teeworlds.com/files/teeworlds-0.6.2-win64.zip'
-$unzipLocation = 'lib/teeworlds'
+$unzipLocation = '/lib'
 
 try {
   Install-ChocolateyZipPackage $packageName $url $unzipLocation $url64bit
