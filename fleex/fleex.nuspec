@@ -3,7 +3,7 @@
   <metadata>
     <id>fleex</id>
     <title>fleex</title>
-    <version>2.0.0</version>
+    <version>2.1.1</version>
     <authors>FleexTV</authors>
     <owners>Pytsh</owners>
     <summary>Fleex is an universal English-learning video player.</summary>
@@ -17,7 +17,7 @@
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes>Much simpler interface</releaseNotes>
+    <releaseNotes>Updated VLC version, better video identification</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
