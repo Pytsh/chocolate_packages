@@ -1,6 +1,6 @@
 $packageName = 'fleex'
 $fileType = 'exe'
-$url = 'https://fleex.blob.core.windows.net/misc/installer/fleex-2.0.0.exe'
+$url = 'http://download.fleex.tv/player/fleex-2.1.1.exe'
 $silentArgs = '/S'
 
 try {
