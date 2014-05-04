@@ -1,7 +1,7 @@
 $packageName = 'fleex'
 $fileType = 'exe'
-$url = 'http://download.fleex.tv/player/fleex-2.1.1.exe'
-$silentArgs = '/S'
+$url = 'http://download.fleex.tv/player/fleex-latest.exe'
+$silentArgs = '/s'
 
 try {
   Install-ChocolateyPackage $packageName $fileType $silentArgs $url
